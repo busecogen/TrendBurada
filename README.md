@@ -1,6 +1,8 @@
 # TrendBurada
 Kotlin-built mobile shopping app in Android Studio
-![TrendBuradaa](https://github.com/busecogen/TrendBurada/assets/91478384/4e0147e5-8759-4e70-bc54-c9d8abd15333)
+
+![TrendBuradaa-5](https://github.com/busecogen/TrendBurada/assets/91478384/184bedd4-8e86-40b6-a48c-03c3efe3a782)
+
 
 # Features:
 
