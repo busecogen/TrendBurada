@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">HW1</string>
+    <string name="tvLogo">TrendBurada</string>
+    <string name="dressDes">Colorful Dress</string>
+    <string name="redBagDes">Red Handbag</string>
+    <string name="covboyHatDes">Covboy Hat</string>
+    <string name="blueJeansDes">Blue Skinny Jeans</string>
+    <array name="clothesCount">
+        <item>1 item</item>
+        <item>2 items</item>
+        <item>3 items</item>
+        <item>4 items</item>
+    </array>
+</resources>

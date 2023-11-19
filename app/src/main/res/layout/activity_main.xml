@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layoutVertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#39B6DC"
+    android:orientation="vertical"
+    tools:context=".activity.MainActivity">
+
+    <TextView
+        android:id="@+id/tvLogo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/paddingSize"
+        android:paddingBottom="@dimen/paddingSize"
+        android:text="@string/tvLogo"
+        android:textAlignment="center"
+        android:textColor="#E8FF5722"
+        android:textSize="@dimen/textSize"
+        android:textStyle="bold" />
+
+    <FrameLayout
+        android:layout_width="@dimen/layout_width"
+        android:layout_height="@dimen/layout_height"
+        android:layout_gravity="center"
+        >
+
+        <ImageView
+            android:id="@+id/imgBlueJeans"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/ic_bluejeans"
+            android:visibility="invisible"/>
+
+        <ImageView
+            android:id="@+id/imgRedBag"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/ic_redbag"
+            android:visibility="invisible"/>
+
+        <ImageView
+            android:id="@+id/imgDress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/ic_colorfuldress"
+            android:visibility="invisible"/>
+
+        <ImageView
+            android:id="@+id/imgCovboyHat"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/ic_covboyhat" />
+    </FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/layoutButtons"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnPrev"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="30dp"
+            android:layout_weight="1"
+            android:text="&lt;" />
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:layout_weight="1" >
+        </Space>
+
+        <Button
+            android:id="@+id/btnNext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_weight="1"
+            android:text="&gt;" />
+    </LinearLayout>
+    <Button
+        android:id="@+id/btnAddChart"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Add to Chart" />
+
+
+</LinearLayout>

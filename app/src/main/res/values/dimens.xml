@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="layout_width">410dp</dimen>
+    <dimen name="layout_height">350dp</dimen>
+    <dimen name="textSize">32sp</dimen>
+    <dimen name="secondTextSize">15sp</dimen>
+    <dimen name="paddingSize">10dp</dimen>
+
+</resources>
